@@ -764,7 +764,7 @@ async def advantage_spell_chok(msg):
         reg = re.compile(r"watch(\s[a-zA-Z0-9_\s\-\(\)]*)*\|.*",
                          re.IGNORECASE)  # match something like Watch Niram | Amazon Prime
         for mv in g_s:
-            if match = reg.match(mv):
+            if match reg.match(mv):
                 gs_parsed.append(match[1])
     user = msg.from_user.id if msg.from_user else 0
     movielist = []
