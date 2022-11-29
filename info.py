@@ -62,7 +62,7 @@ BOT_MODE = environ.get('BOT_MODE', "post").lower() # button or post
 TOTAL_BUTTONS = int(environ.get('TOTAL_BUTTONS', 10))
 
 SHORTENER_API = environ.get('SHORTENER_API', '4fbe384f585aa6c0df736bd9a859bfc3b9216fee')
-SHORTENER_WEBSITE = environ.get('SHORTENER_WEBSITE', 'https://tnlink.in')
+SHORTENER_WEBSITE = environ.get('SHORTENER_WEBSITE', 'tnlink.in')
 
 LOG_STR = "Current Cusomized Configurations are:-\n" + (("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n"))
 LOG_STR += ("P_TTI_SHOW_OFF found , Users will be redirected to send /start to Bot PM instead of sending file file directly\n" if P_TTI_SHOW_OFF else "P_TTI_SHOW_OFF is disabled files will be send in PM, instead of sending start.\n")
